@@ -9,9 +9,8 @@
  <remote  name="anand"
            fetch="https://github.com/Anandnv/"
 
-<project path="caf" name="caf" remote="anand"  />
-
   <!-- HardWare QCOM -->
+  <project path="caf" name="caf" remote="anand"  />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.1.2-caf" />
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8084" />
