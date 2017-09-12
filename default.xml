@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="gzosp"
+           fetch="https://github.com/GZOSP"
+           sync-c="true"
+           sync-f="true"
+           sync-j="8"
+           revision="8.0" />
+  
   <!-- Tesla remote -->
   <remote  name="tesla"
            fetch="https://github.com/TeslaRom-N/"
